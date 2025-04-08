@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akash Medical Hall</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Sections */
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 8px;
+            width: 80%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Image Gallery */
+        .gallery img {
+            width: 100px;
+            margin: 5px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* CTA Button */
+        .cta-button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            color: white;
+            background-color: #4CAF50;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .cta-button:hover {
+            background-color: #45A049;
+        }
+
+        /* Testimonials */
+        blockquote {
+            font-size: 1.2em;
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Contact Form */
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form input, form textarea, form button {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        form button {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #45A049;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Akash Medical Hall</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#doctor">Our Doctor</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Akash Medical Hall</h2>
+            <p>Your trusted partner in health and wellness, offering personalized care and expert guidance.</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>At Akash Medical Hall, we provide comprehensive healthcare services, including a fully stocked pharmacy and access to a certified medical professional on-site.</p>
+            <p><strong>Owned and Managed By:</strong></p>
+            <ul>
+                <li>Mr. [Aftab Alam Ansari] - Contact: [+977-9804267816][+977-9845413826]</li>
+                <li>Mr. [Tauqeer Alam] - Contact: [+977-9821127921]</li>
+            </ul>
+            <p><strong>Landline:</strong> [051-526427]</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Prescription Filling</li>
+                <li>Over-the-Counter Medications</li>
+                <li>Health Consultations</li>
+                <li>Immunizations</li>
+                <li>Emergency Care</li>
+                <li>Online Medicine Orders</li>
+                <li>Appointment Booking</li>
+            </ul>
+        </section>
+
+        <section id="doctor">
+            <h2>Meet Our Doctor</h2>
+            <p>We are honored to have Dr. [Tarannum Khatun], Nepal's No. 1 gynecologist, a Gold Medalist who completed her MBBS from Pakistan and currently also serves as a professor. Alongside her academic role, she is dedicated to attending to patients, offering personalized consultations and treatments.</p>
+            <p>Available Hours: [11:00AM - 3:00PM] Thursday[11:00AM - 12:00PM]</p>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <img src="pharmacy.jpg" alt="Pharmacy Interior">
+                <img src="doctor.jpg" alt="Doctor Consulting">
+                <img src="services.jpg" alt="Pharmacy Services">
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+            <blockquote>
+                <p>"Akash Medical Hall has been a lifesaver for me and my family. Their services are top-notch!" - Happy Customer</p>
+            </blockquote>
+            <blockquote>
+                <p>"Dr. [Name] is incredibly knowledgeable and caring. I felt truly heard and supported." - Satisfied Patient</p>
+            </blockquote>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Address: Ghantaghar, Birgunj, Nepal, 44300</p>
+            <p>Phone: 051-526427</p>
+            <p>Email: arshadalam5866@gmail.com</p>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Akash Medical Hall. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
